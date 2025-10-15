@@ -85,6 +85,15 @@ const Header = () => {
                 Competitions
               </a>
               <a
+                href="/#AssociationLife"
+                onClick={(e) => {
+                  e.preventDefault();
+                  handleClick("AssociationLife")();
+                }}
+              >
+                Association Life
+              </a>
+              <a
                 href="/#Certification"
                 onClick={(e) => {
                   e.preventDefault();
