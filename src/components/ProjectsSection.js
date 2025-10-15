@@ -10,7 +10,7 @@ const projects = [
       "GoQUEST is an application of quiz developed by Framework Flutter",
       getVideoSrc: () => require("../videos/GoQUEST (online-video-cutter.com).mp4"),
   },
-  
+
 ];
 
 const Card = ({ title, description, videoSrc }) => {
@@ -290,6 +290,11 @@ const projects = [
     title: "GoQUEST",
     description: "GoQUEST is an application of quiz developed by Framework Flutter",
     videoSrc: require("../videos/GoQUEST1.mp4"),
+  },
+  {
+    title: "Calculator with react",
+    description: "Calculator developped by React",
+    videoSrc: require("../videos/calculator.mp4"),
   },
 ];
 

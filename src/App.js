@@ -8,6 +8,7 @@ import CertifSection from "./components/CertifSection"
 import Footer from "./components/Footer";
 import { AlertProvider } from "./context/alertContext";
 import Alert from "./components/Alert";
+import AssociationLifeSection from "./components/AssociationLife";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <LandingSection />
           <ProjectsSection />
           <CompetetionSection />
+          <AssociationLifeSection/>
           <CertifSection />
           <ContactMeSection />
           <Footer />
