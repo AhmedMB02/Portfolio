@@ -1,3 +1,4 @@
+/*
 import React from "react";
 import { useFormik } from "formik";
 import {
@@ -104,6 +105,61 @@ const ContactMeSection = () => {
             </VStack>
           </form>
         </Box>
+      </VStack>
+    </FullScreenSection>
+  );
+};
+
+export default ContactMeSection;
+*/
+import React from "react";
+import { Box, Button, Heading, Text, VStack } from "@chakra-ui/react";
+import FullScreenSection from "./FullScreenSection";
+
+const ContactMeSection = () => {
+  const handleEmailClick = () => {
+    window.location.href = "mailto:ton.email@example.com";
+  };
+
+  return (
+    <FullScreenSection
+      isDarkBackground
+      backgroundColor="#5B70A6"
+      py={24}
+      spacing={8}
+      justifyContent="center"
+      alignItems="center"
+    >
+      <VStack spacing={6} textAlign="center">
+        <Heading
+          as="h1"
+          size="2xl"
+          color="white"
+          textShadow="0px 0px 10px rgba(255,255,255,0.3)"
+        >
+          Contact Me
+        </Heading>
+
+        <Text color="whiteAlpha.900" fontSize="lg" maxW="600px">
+          I’d love to hear from you! Click the button below to send me an email.
+        </Text>
+
+        <Button
+          colorScheme="purple"
+          size="lg"
+          px={10}
+          py={6}
+          fontSize="xl"
+          borderRadius="full"
+          boxShadow="0px 4px 15px rgba(0,0,0,0.3)"
+          _hover={{
+            transform: "scale(1.05)",
+            boxShadow: "0px 6px 20px rgba(0,0,0,0.4)",
+          }}
+          onClick={handleEmailClick}
+        >
+          ✉️ Send me an email
+        </Button>
       </VStack>
     </FullScreenSection>
   );

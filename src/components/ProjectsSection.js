@@ -269,18 +269,7 @@ export default ProjectsSection;
 
 
 //-------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
+/*
 import React from "react";
 import { Box, Heading, Text, Image } from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
@@ -354,4 +343,93 @@ const ProjectsSection = () => {
 };
 
 export default ProjectsSection;
+*/
 // <video width="100%" height="100%" controls>
+import React from "react";
+import { Box, Heading, Text } from "@chakra-ui/react";
+import FullScreenSection from "./FullScreenSection";
+
+const projects = [
+  {
+    title: "GoQUEST",
+    description: "GoQUEST is a quiz application developed with Flutter",
+    videoSrc: require("../videos/GoQUESTEdited.mp4"),
+  },
+  {
+    title: "Calculator with React",
+    description: "A simple calculator developed with React",
+    videoSrc: require("../videos/Calcul.mp4"),
+  },
+  {
+    title: "Calculator with React",
+    description: "A simple calculator developed with React",
+    videoSrc: require("../videos/Calcul.mp4"),
+  },
+];
+
+const Card = ({ title, description, videoSrc }) => {
+  return (
+    <Box
+      backgroundColor="#ffffff"
+      borderRadius="lg"
+      boxShadow="0px 4px 8px rgba(0, 0, 0, 0.1)"
+      padding={4}
+    >
+      {/* ✅ Même style que les autres cards, mais avec vidéo */}
+      <Box borderRadius="md" overflow="hidden" mb={4}>
+        <video
+          controls
+          style={{
+            width: "100%",
+            height: "auto",
+            borderRadius: "8px",
+            objectFit: "cover",
+            display: "block",
+          }}
+        >
+          <source src={videoSrc} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </Box>
+
+      <Heading as="h2" size="md" mb={2} color="black">
+        {title}
+      </Heading>
+      <Text color="gray.600">{description}</Text>
+    </Box>
+  );
+};
+
+const ProjectsSection = () => {
+  return (
+    <FullScreenSection
+      backgroundColor="#332975"
+      isDarkBackground
+      p={8}
+      alignItems="flex-start"
+      spacing={8}
+    >
+      <Heading as="h1" id="projects-section" color="white">
+        Featured Projects
+      </Heading>
+
+      {/* ✅ Même disposition en grille que dans la section Competitions */}
+      <Box
+        display="grid"
+        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        gridGap={8}
+      >
+        {projects.map((project, index) => (
+          <Card
+            key={index}
+            title={project.title}
+            description={project.description}
+            videoSrc={project.videoSrc}
+          />
+        ))}
+      </Box>
+    </FullScreenSection>
+  );
+};
+
+export default ProjectsSection;
