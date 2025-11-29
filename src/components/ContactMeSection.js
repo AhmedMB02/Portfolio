@@ -118,7 +118,7 @@ import FullScreenSection from "./FullScreenSection";
 
 const ContactMeSection = () => {
   const handleEmailClick = () => {
-    window.location.href = "mailto:ton.email@example.com";
+    window.location.href = "mailto:ahmedmbarek16@gmail.com";
   };
 
   return (

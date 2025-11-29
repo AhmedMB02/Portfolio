@@ -22,6 +22,12 @@ const projects = [
       "Among The Youth Leaders Network Project Implemented by YALD association A PART FROM MA3AN PROJECT",
     getImageSrc: () => require("../images/trainig.jpg"),
   },
+  {
+    title: "Gemini 3 - Unlock Your Fullest Potential",
+    description:
+      "This certification confirms advanced proficiency in the Gemini 3 platform, focusing on its application for personal and professional development. It validates the critical skill of expert prompt engineering, specifically utilizing the PCTF framework (Purpose, Context, Task, Format) to optimize outputs, alongside a thorough understanding of how the Gemini model works at its core. Holders are certified to leverage these capabilities for enhanced productivity, creative problem-solving, and achieving ambitious objectives.",
+    getImageSrc: () => require("../images/certif gemini3.jpg"),
+  },
 
 ];
 

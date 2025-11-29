@@ -356,14 +356,9 @@ const projects = [
     videoSrc: require("../videos/GoQUESTEdited.mp4"),
   },
   {
-    title: "Calculator with React",
-    description: "A simple calculator developed with React",
-    videoSrc: require("../videos/Calcul.mp4"),
-  },
-  {
-    title: "Calculator with React",
-    description: "A simple calculator developed with React",
-    videoSrc: require("../videos/Calcul.mp4"),
+    title: "Final year project ",
+    description: "DEVELOPMENT OF AN INTELLIGENT MOBILE APPLICATION FOR TASK MANAGEMENT",
+    videoSrc: require("../videos/AGTIA.mp4"),
   },
 ];
 

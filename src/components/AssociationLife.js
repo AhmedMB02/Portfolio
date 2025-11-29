@@ -15,6 +15,12 @@ const associationL = [
       "Since December 2024, I have been a member of The American Corner in Sousse, a cultural and educational hub dedicated to promoting knowledge about the United States. This membership has provided me with access to rich learning resources, cultural exchange programs, and engaging events that have enhanced both my academic growth and personal development.",
     getImageSrc: () => require("../images/AC.jpg"),
   },
+  {
+    title: "Member in Technical department COPRO Club at EPI Sousse",
+    description:
+      "",
+    getImageSrc: () => require("../images/copro.jpg"),
+  },
 ];
 
 const Card = ({ title, description, imageSrc }) => {
