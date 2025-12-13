@@ -17,8 +17,7 @@ const associationL = [
   },
   {
     title: "Member in Technical department COPRO Club at EPI Sousse",
-    description:
-      "",
+    description:"This photo is a wrap-up shot with the CoPro Club Team at EPI School, taken right after we successfully organized the '2FAST' coding competition (our hackathon) on November 26, 2025. As a member of the organizing Technical Staff, this event marked my very first organizational experience with the club, where I focused specifically on the technical planning and execution of the hackathon. This whole experience was massive for engaging with a dynamic new team and seriously leveling up my organizational, technical, and teamwork skills while performing under pressure.",
     getImageSrc: () => require("../images/copro.jpg"),
   },
 ];
