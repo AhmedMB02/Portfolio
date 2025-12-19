@@ -23,6 +23,16 @@ const projects = [
     ],
     videoSrc: require("../videos/AGTIA.mp4"),
   },
+  {
+    title: "First initiation with Angular : Web Site of a library  ",
+    description: [
+      "Development of interface for library with angular 21 ",
+      "-Technologies used: , Django, Tensorflow",
+      "Task management system",
+      "AI-powered features for productivity",
+    ],
+    videoSrc: require("../videos/biblio.mp4"),
+  },
 ];
 
 const Card = ({ title, description, videoSrc }) => {
