@@ -66,7 +66,7 @@ const Card = ({ title, description, videoSrc }) => {
       <Box color="gray.600">
         {description.map((item, index) => (
           <Text key={index} mb={1}>
-             {item}
+            {item}
           </Text>
         ))}
       </Box>
@@ -90,7 +90,7 @@ const ProjectsSection = () => {
       {/* ✅ Même disposition en grille que dans la section Competitions */}
       <Box
         display="grid"
-        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        gridTemplateColumns={{ base: "1fr", md: "repeat(2,minmax(0,1fr))" }}
         gridGap={8}
       >
         {projects.map((project, index) => (

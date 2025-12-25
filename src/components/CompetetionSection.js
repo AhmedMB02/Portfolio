@@ -4,7 +4,7 @@ import FullScreenSection from "./FullScreenSection";
 
 const projects = [
   {
-    title: "Info Night 2023",
+    title: "Coding Night 2023",
     description:
       "On December 2023, I participated in Info Night 2023, an engaging event that brought together students and technology enthusiasts to explore innovative ideas and showcase creative projects. This experience allowed me to collaborate with peers, exchange knowledge, and apply my problem-solving skills in a dynamic and inspiring environment. It was also an excellent opportunity to strengthen my teamwork and communication abilities while being exposed to new perspectives in the tech field.",
     getImageSrc: () => require("../images/nuitInfo2023.jpg"),
@@ -44,7 +44,7 @@ const Card = ({ title, description, imageSrc }) => {
 const ProjectsSection = () => {
   return (
     <FullScreenSection
-     backgroundColor="#5B70A6"
+      backgroundColor="#5B70A6"
       isDarkBackground
       p={8}
       alignItems="flex-start"
@@ -55,7 +55,7 @@ const ProjectsSection = () => {
       </Heading>
       <Box
         display="grid"
-        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        gridTemplateColumns={{ base: "1fr", md: "repeat(2,minmax(0,1fr))" }}
         gridGap={8}
       >
         {projects.map((project, index) => (

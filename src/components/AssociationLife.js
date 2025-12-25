@@ -17,7 +17,7 @@ const associationL = [
   },
   {
     title: "Member in Technical department COPRO Club at EPI Sousse",
-    description:"This photo is a wrap-up shot with the CoPro Club Team at EPI School, taken right after we successfully organized the '2FAST' coding competition (our hackathon) on November 26, 2025. As a member of the organizing Technical Staff, this event marked my very first organizational experience with the club, where I focused specifically on the technical planning and execution of the hackathon. This whole experience was massive for engaging with a dynamic new team and seriously leveling up my organizational, technical, and teamwork skills while performing under pressure.",
+    description: "This photo is a wrap-up shot with the CoPro Club Team at EPI School, taken right after we successfully organized the '2FAST' coding competition (our hackathon) on November 26, 2025. As a member of the organizing Technical Staff, this event marked my very first organizational experience with the club, where I focused specifically on the technical planning and execution of the hackathon. This whole experience was massive for engaging with a dynamic new team and seriously leveling up my organizational, technical, and teamwork skills while performing under pressure.",
     getImageSrc: () => require("../images/copro.jpg"),
   },
 ];
@@ -42,7 +42,7 @@ const Card = ({ title, description, imageSrc }) => {
 const AssociationLifeSection = () => {
   return (
     <FullScreenSection
-     backgroundColor="#42378dff"
+      backgroundColor="#42378dff"
       isDarkBackground
       p={8}
       alignItems="flex-start"
@@ -53,7 +53,7 @@ const AssociationLifeSection = () => {
       </Heading>
       <Box
         display="grid"
-        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        gridTemplateColumns={{ base: "1fr", md: "repeat(2,minmax(0,1fr))" }}
         gridGap={8}
       >
         {associationL.map((associationL, index) => (
@@ -68,4 +68,4 @@ const AssociationLifeSection = () => {
     </FullScreenSection>
   );
 };
-export default AssociationLifeSection ;
+export default AssociationLifeSection;

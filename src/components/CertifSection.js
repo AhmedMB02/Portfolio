@@ -95,7 +95,7 @@ const Card = ({ title, description, imageSrc }) => {
 const ProjectsSection = () => {
   return (
     <FullScreenSection
-     backgroundColor="#332975"
+      backgroundColor="#332975"
       isDarkBackground
       p={8}
       alignItems="flex-start"
@@ -106,7 +106,7 @@ const ProjectsSection = () => {
       </Heading>
       <Box
         display="grid"
-        gridTemplateColumns="repeat(2,minmax(0,1fr))"
+        gridTemplateColumns={{ base: "1fr", md: "repeat(2,minmax(0,1fr))" }}
         gridGap={8}
       >
         {projects.map((project, index) => (
