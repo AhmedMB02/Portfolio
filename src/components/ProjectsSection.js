@@ -27,11 +27,11 @@ const projects = [
     title: "First initiation with Angular : Web Site of a library  ",
     description: [
       "Development of interface for library with angular 21 ",
-      "-Technologies used: , Django, Tensorflow",
-      "Task management system",
-      "AI-powered features for productivity",
+      "-Implementation of core Angular concepts such as components, modules, routing, services, and data binding.",
+      "-Design of user-friendly pages to manage books, categories, and basic library operations.",
+      "-This project helped me understand the fundamentals of frontend development, Angular architecture, and how to build a scalable and evolvable web application.",
     ],
-    videoSrc: require("../videos/biblio.mp4"),
+    videoSrc: require("../videos/mbiblio.mp4"),
   },
 ];
 
