@@ -32,9 +32,9 @@ const projects = [
   {
     title: "Project-Management Entrepreneuriat",
     description: [
-      "Among The Youth Leaders Network Project",
-      "Implemented by YALD association",
-      "A PART FROM MA3AN PROJECT",
+      "Certification in Project Management and Entrepreneurship held at Polytechnique Sousse.",
+      "Organized in collaboration with the Polytech Entrepreneurship Club.",
+      "Focused on project planning, teamwork, leadership, and entrepreneurial mindset.",
     ],
     getImageSrc: () => require("../images/trainig.jpg"),
   },

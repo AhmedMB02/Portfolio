@@ -18,8 +18,8 @@ const projects = [
     description: [
       "Development of an intelligent mobile application",
       "-Technologies used: Kotlin, Django, Tensorflow",
-      "Task management system",
-      "AI-powered features for productivity",
+      "-Task management system",
+      "-AI-powered features for productivity",
     ],
     videoSrc: require("../videos/AGTIA.mp4"),
   },
