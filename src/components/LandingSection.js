@@ -14,7 +14,7 @@ const LandingSection = () => (
     backgroundColor="#2B255D"
   >
     <VStack spacing={4} alignItems="center">
-      <Avatar size="2xl" src={require("../images/ahmedportfolio.jpg")} />
+      <Avatar size="2xl" src={require("../images/image Ahmed.png")} />
       <Heading as="h1" size="xl" textAlign="center" color="white">
         {greeting}
       </Heading>
