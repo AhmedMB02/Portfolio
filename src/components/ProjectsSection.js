@@ -14,7 +14,19 @@ const projects = [
     videoSrc: require("../videos/GoQUESTEdited.mp4"),
   },
   {
-    title: "Final year project ",
+    title: "Ecommerce mobile application",
+    description: [
+      "Development of an interface for e-commerce mobile application ",
+      "- Technologies used: Flutter (Dart language)",
+      "- Interactive and engaging user interface for a better user experience",
+      "- Cross-platform mobile development for Android and iOS",
+      "- Connexion with Firebase for authentication and database",
+      "- Crud operations",
+    ],
+    videoSrc: require("../videos/EcommerceFlutter.mp4"),
+  },
+  {
+    title: "Graduation Project ",
     description: [
       "Development of an intelligent mobile application",
       "-Technologies used: Kotlin, Django, Tensorflow",
@@ -33,6 +45,7 @@ const projects = [
     ],
     videoSrc: require("../videos/mbiblio.mp4"),
   },
+
 ];
 
 const Card = ({ title, description, videoSrc }) => {
