@@ -45,6 +45,17 @@ const projects = [
     ],
     videoSrc: require("../videos/mbiblio.mp4"),
   },
+  {
+    title: "First initiation with Angular and SpringBoot ",
+    description: [
+      "Discovering the integration between Angular and SpringBoot with simple project",
+      "-Implementation of core Angular concepts such as components, modules, routing, services, and data binding.",
+      "-Connection between Angular and SpringBoot with API.",
+      "-Authentication and authorization with JWT.",
+      "-This project helped me understand the fundamentals of frontend development, Angular architecture, and how to build a scalable and evolvable web application.",
+    ],
+    videoSrc: require("../videos/gestionproduitSP&Ang.mp4"),
+  },
 
 ];
 
