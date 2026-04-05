@@ -29,7 +29,7 @@ const projects = [
     title: "Graduation Project ",
     description: [
       "Development of an intelligent mobile application",
-      "-Technologies used: Kotlin, Django, Tensorflow",
+      "-Technologies used: Kotlin, Django, Meta heuristics evolutionnary algorithms, Hybrid approaches between Tabu search and Genetic algorithms",
       "-Task management system",
       "-AI-powered features for productivity",
     ],
