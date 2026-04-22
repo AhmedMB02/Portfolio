@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.df6a7eab.css",
-    "main.js": "/Portfolio/static/js/main.9f03eb1e.js",
+    "main.js": "/Portfolio/static/js/main.de79260d.js",
     "static/js/111.944ce873.chunk.js": "/Portfolio/static/js/111.944ce873.chunk.js",
     "static/media/EcommerceFlutter.mp4": "/Portfolio/static/media/EcommerceFlutter.2c0433f6fa7dee6f2736.mp4",
     "static/media/mbiblio.mp4": "/Portfolio/static/media/mbiblio.6e5a4fd189a1c31c38b7.mp4",
@@ -13,6 +13,7 @@
     "static/media/coursera.png": "/Portfolio/static/media/coursera.13a8bd3e9c21fa95d49e.png",
     "static/media/codingmoonchallenge2.jpg": "/Portfolio/static/media/codingmoonchallenge2.18ce8751731edfecbeda.jpg",
     "static/media/aws cloud.png": "/Portfolio/static/media/aws cloud.d4543175ac55cd14d981.png",
+    "static/media/certif ccna1.png": "/Portfolio/static/media/certif ccna1.b437cc7f247f274e25ef.png",
     "static/media/nuitInfo2023.jpg": "/Portfolio/static/media/nuitInfo2023.78712e243562ecb110a2.jpg",
     "static/media/copro.jpg": "/Portfolio/static/media/copro.bc2a504fafb65daade1a.jpg",
     "static/media/certif fond ia IEEE.jpg": "/Portfolio/static/media/certif fond ia IEEE.0646d460a2d3224e22bf.jpg",
@@ -22,11 +23,11 @@
     "static/media/certif gemini3.jpg": "/Portfolio/static/media/certif gemini3.25e26d18b8bebcfe669c.jpg",
     "index.html": "/Portfolio/index.html",
     "main.df6a7eab.css.map": "/Portfolio/static/css/main.df6a7eab.css.map",
-    "main.9f03eb1e.js.map": "/Portfolio/static/js/main.9f03eb1e.js.map",
+    "main.de79260d.js.map": "/Portfolio/static/js/main.de79260d.js.map",
     "111.944ce873.chunk.js.map": "/Portfolio/static/js/111.944ce873.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.df6a7eab.css",
-    "static/js/main.9f03eb1e.js"
+    "static/js/main.de79260d.js"
   ]
 }
