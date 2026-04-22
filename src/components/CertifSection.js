@@ -5,13 +5,17 @@ import FullScreenSection from "./FullScreenSection";
 
 const projects = [
   {
-    title: "AWS Cloud Practitioner Essentiels",
+    title: "CCNA 1: Introduction to Networks",
     description: [
-      "Certified in foundational cloud computing concepts",
-      "AWS services, cloud architecture, and best practices",
-      "Essential knowledge for deploying, managing, and understanding cloud-based solutions",
+      "Completed the CCNA 1 certification through Cisco Networking Academy at EPI",
+      "Skills acquired :",
+      "- Built a strong foundation in networking fundamentals",
+      "- Learned OSI & TCP/IP models",
+      "- Understood IP addressing concepts",
+      "- Gained knowledge of network devices (routers & switches)",
+      "- Improved overall understanding of how networks operate"
     ],
-    getImageSrc: () => require("../images/aws cloud.png"),
+    getImageSrc: () => require("../images/certif ccna1.png"),
   },
   {
     title: "Meta Front-End Developer – Professional Certificate",
@@ -28,6 +32,15 @@ const projects = [
 
     ],
     getImageSrc: () => require("../images/coursera.png"),
+  },
+  {
+    title: "AWS Cloud Practitioner Essentiels",
+    description: [
+      "Certified in foundational cloud computing concepts",
+      "AWS services, cloud architecture, and best practices",
+      "Essential knowledge for deploying, managing, and understanding cloud-based solutions",
+    ],
+    getImageSrc: () => require("../images/aws cloud.png"),
   },
   {
     title: "Project-Management Entrepreneuriat",
